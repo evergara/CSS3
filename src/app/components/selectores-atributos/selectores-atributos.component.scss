@@ -1,0 +1,57 @@
+//Color Linl
+$primary-color-h1: green;
+$primary-color-h2: steelblue;
+
+
+
+h1{
+    color: $primary-color-h1;
+}
+
+h2{
+    color: $primary-color-h2;
+}
+
+nav{
+    background: transparent;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#section{
+    border:  1px solid black;
+}
+
+section {
+    h2{ 
+        text-align: center;
+        &.desccrition{
+            color: $primary-color-h1;
+        }
+    }
+    
+}
+
+.parrafo{
+    color: darkblue;
+}
+
+[href]{
+    text-decoration: none;
+}
+
+[href^="httpss"]{
+    color: $primary-color-h1;
+}
+
+[href*="emerson"]{
+    background: darksalmon;
+    color: black;
+}
+
+
+/**
+[attr] [attr=value] [attr~=value] 
+[attr|=value] [attr^=value] 
+[attr$=value] [attr*=value]
+**/
