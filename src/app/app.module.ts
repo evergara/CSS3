@@ -7,6 +7,8 @@ import { SelectoresCombinadoresComponent } from './components/selectores-combina
 import { SelectoresAtributosComponent } from './components/selectores-atributos/selectores-atributos.component';
 import { SelectoresBasicosComponent } from './components/selectores-basicos/selectores-basicos.component';
 import { BoxModelComponent } from './components/box-model/box-model.component';
+import { ElementCSSComponent } from './components/element-css/element-css.component';
+import { EspecificidadCSSComponent } from './components/especificidad-css/especificidad-css.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BoxModelComponent } from './components/box-model/box-model.component';
     SelectoresCombinadoresComponent,
     SelectoresAtributosComponent,
     SelectoresBasicosComponent,
-    BoxModelComponent
+    BoxModelComponent,
+    ElementCSSComponent,
+    EspecificidadCSSComponent
   ],
   imports: [
     BrowserModule,
