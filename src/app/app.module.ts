@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { SelectoresCombinadoresComponent } from './components/selectores-combinadores/selectores-combinadores.component';
 import { SelectoresAtributosComponent } from './components/selectores-atributos/selectores-atributos.component';
 import { SelectoresBasicosComponent } from './components/selectores-basicos/selectores-basicos.component';
+import { BoxModelComponent } from './components/box-model/box-model.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SelectoresCombinadoresComponent,
     SelectoresAtributosComponent,
-    SelectoresBasicosComponent
+    SelectoresBasicosComponent,
+    BoxModelComponent
   ],
   imports: [
     BrowserModule,

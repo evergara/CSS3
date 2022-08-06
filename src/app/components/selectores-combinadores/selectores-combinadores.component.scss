@@ -3,6 +3,7 @@ $color__primary: red;
 h2, a, p{
     color: $color__primary;
 }
+
 h2, h3, h4 {
     font-size: 2em;
     font-family: 'Arial';
@@ -34,7 +35,7 @@ nav.contenedor{
    font-weight: bold;
 }
 //Seleciono al hermano abyacente
-h2+p{
+h2 + p{
     color: gold;
 }
 //Seleciono a todos los hermanos abyacente

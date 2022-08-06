@@ -45,10 +45,19 @@ section {
 }
 
 [href*="emerson"]{
-    background: darksalmon;
+    background: grey;
     color: black;
 }
 
+[href|="emerson"]{
+    background: yellowgreen;
+    color: black;
+}
+
+[href~="emerson"]{
+    background: yellow;
+    color: black;
+}
 
 /**
 [attr] [attr=value] [attr~=value] 
