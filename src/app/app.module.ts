@@ -9,6 +9,7 @@ import { SelectoresBasicosComponent } from './components/selectores-basicos/sele
 import { BoxModelComponent } from './components/box-model/box-model.component';
 import { ElementCSSComponent } from './components/element-css/element-css.component';
 import { EspecificidadCSSComponent } from './components/especificidad-css/especificidad-css.component';
+import { BorderInitialComponent } from './components/border-initial/border-initial.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EspecificidadCSSComponent } from './components/especificidad-css/especi
     SelectoresBasicosComponent,
     BoxModelComponent,
     ElementCSSComponent,
-    EspecificidadCSSComponent
+    EspecificidadCSSComponent,
+    BorderInitialComponent
   ],
   imports: [
     BrowserModule,
