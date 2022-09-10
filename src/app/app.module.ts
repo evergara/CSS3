@@ -10,6 +10,7 @@ import { BoxModelComponent } from './components/box-model/box-model.component';
 import { ElementCSSComponent } from './components/element-css/element-css.component';
 import { EspecificidadCSSComponent } from './components/especificidad-css/especificidad-css.component';
 import { BorderInitialComponent } from './components/border-initial/border-initial.component';
+import { BorderRadiusComponent } from './components/border-radius/border-radius.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BorderInitialComponent } from './components/border-initial/border-initi
     BoxModelComponent,
     ElementCSSComponent,
     EspecificidadCSSComponent,
-    BorderInitialComponent
+    BorderInitialComponent,
+    BorderRadiusComponent
   ],
   imports: [
     BrowserModule,
