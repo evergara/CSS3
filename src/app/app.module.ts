@@ -11,6 +11,7 @@ import { ElementCSSComponent } from './components/element-css/element-css.compon
 import { EspecificidadCSSComponent } from './components/especificidad-css/especificidad-css.component';
 import { BorderInitialComponent } from './components/border-initial/border-initial.component';
 import { BorderRadiusComponent } from './components/border-radius/border-radius.component';
+import { BoxShadowComponent } from './components/box-shadow/box-shadow.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BorderRadiusComponent } from './components/border-radius/border-radius.
     ElementCSSComponent,
     EspecificidadCSSComponent,
     BorderInitialComponent,
-    BorderRadiusComponent
+    BorderRadiusComponent,
+    BoxShadowComponent
   ],
   imports: [
     BrowserModule,
