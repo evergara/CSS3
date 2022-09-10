@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 30px auto;
+    /**bordet: width style color*/
+    border: 1px solid black;
+}
+
+.box1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 50px 50px 50px 150px;
+    //border-width: top right bottom left;
+    border-width: 20px;
+    //border-style: top right bottom left;
+    border-style: groove dashed;
+    //border-color: top right bottom left;
+    border-color: brown steelblue crimson;
+}
+
+.box2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 50px;
+    /**bordet-[top, right, bottom, left]: width style color*/
+    border-top: 10px outset brown;
+    border-right: 10px double blue;
+    border-bottom: 10px ridge lightskyblue;
+    border-left: 10px inset papayawhip;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    margin: 30px auto;
+    /**bordet: width style color*/
+    border-top-width: 30px;
+    border-top-style: dotted;
+    border-top-color: violet;
+
+    border-right-width: 20px;
+    border-right-style: double;
+    border-right-color: greenyellow;
+
+    border-bottom-width: 30px;
+    border-bottom-style: ridge;
+    border-bottom-color: red;
+    
+    border-left-width: 30px;
+    border-left-style: ridge;
+    border-left-color: lemonchiffon;
+}
