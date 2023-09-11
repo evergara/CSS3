@@ -8,8 +8,8 @@ describe('SelectoresBasicosComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SelectoresBasicosComponent ]
-    })
+    imports: [SelectoresBasicosComponent]
+})
     .compileComponents();
   });
 

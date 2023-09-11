@@ -8,8 +8,8 @@ describe('BorderInitialComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BorderInitialComponent ]
-    })
+    imports: [BorderInitialComponent]
+})
     .compileComponents();
   });
 

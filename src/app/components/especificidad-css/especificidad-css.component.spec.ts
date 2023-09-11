@@ -8,8 +8,8 @@ describe('EspecificidadCSSComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EspecificidadCSSComponent ]
-    })
+    imports: [EspecificidadCSSComponent]
+})
     .compileComponents();
   });
 
