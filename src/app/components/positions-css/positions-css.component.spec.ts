@@ -8,8 +8,8 @@ describe('PositionsCSSComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PositionsCSSComponent ]
-    })
+    imports: [PositionsCSSComponent]
+})
     .compileComponents();
   });
 

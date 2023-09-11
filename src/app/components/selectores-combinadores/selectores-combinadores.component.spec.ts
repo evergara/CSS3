@@ -8,8 +8,8 @@ describe('SelectoresCombinadoresComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SelectoresCombinadoresComponent ]
-    })
+    imports: [SelectoresCombinadoresComponent]
+})
     .compileComponents();
   });
 

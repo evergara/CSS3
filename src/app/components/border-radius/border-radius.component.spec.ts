@@ -8,8 +8,8 @@ describe('BorderRadiusComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BorderRadiusComponent ]
-    })
+    imports: [BorderRadiusComponent]
+})
     .compileComponents();
   });
 
