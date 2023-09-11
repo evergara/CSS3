@@ -13,6 +13,7 @@ import { BorderInitialComponent } from './components/border-initial/border-initi
 import { BorderRadiusComponent } from './components/border-radius/border-radius.component';
 import { BoxShadowComponent } from './components/box-shadow/box-shadow.component';
 import { LoadingPagesComponent } from './components/loading-pages/loading-pages.component';
+import { PositionsCSSComponent } from './components/positions-css/positions-css.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LoadingPagesComponent } from './components/loading-pages/loading-pages.
     BorderInitialComponent,
     BorderRadiusComponent,
     BoxShadowComponent,
-    LoadingPagesComponent
+    LoadingPagesComponent,
+    PositionsCSSComponent
   ],
   imports: [
     BrowserModule,

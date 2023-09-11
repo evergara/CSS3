@@ -1,0 +1,85 @@
+.parent {
+   position: relative;
+   margin: 5px;   
+}
+
+.child-one {
+  position: relative;
+  margin: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.child-two {
+    position: relative;
+    margin: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.child-three {
+    position: relative;
+    margin: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+  
+
+
+body {
+    display: block;
+    margin: 8px !important;
+}
+.tittle {
+    margin: 10px 0 ;
+}
+
+.parent {
+    padding: 5px;
+    background-color: #00AAFF;
+  }
+  
+  .child {
+    padding: 5px;
+  }
+  
+  .child-one {
+    background-color: rgb(116, 255, 116);
+  }
+  
+  .child-two {
+    background-color: rgb(248, 117, 117);
+  }
+  
+  .child-three {
+    background-color: rgb(255, 116, 232);
+  }
+
