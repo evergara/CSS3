@@ -18,6 +18,17 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "es2020",
+    "paths": {
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@feature/*": [
+        "src/app/feature/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ]
+    },
     "lib": [
       "es2020",
       "dom"
